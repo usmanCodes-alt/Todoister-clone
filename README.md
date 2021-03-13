@@ -30,16 +30,16 @@ Android Room along with SQLite was used to implement all database related functi
 The project contains following classes related to database
 
 1. Entity
-  1. This is the Task class that defines all properties a task would have such as `title`, `dueDate`, `createdAt`.
+    1. This is the Task class that defines all properties a task would have such as `title`, `dueDate`, `createdAt`.
 2. `TaskDao`
-  1. This is the data access object
-  2. This is an interface.
-  3. Defined all the functionalities (methods) that our database will perform.
-  4. Functionalities include `CRUD` methods
+    1. This is the data access object
+    2. This is an interface.
+    3. Defined all the functionalities (methods) that our database will perform.
+    4. Functionalities include `CRUD` methods
 3. TaskRoomDatabase (actual database class)
 4. `TodoisterRepository`
-  1. This class talks to the database, triggers all of its functionality and provides a clean `API` for `viewModel` to work with.
+    1. This class talks to the database, triggers all of its functionality and provides a clean `API` for `viewModel` to work with.
 5. `TaskViewModel`
-  1. This class is used in our `activity` and `fragment`.
-  2. Contains `static methods` for `CRUD`, which are used by activity and fragment to perform all
-  database operations at their respective level.
+    1. This class is used in our `activity` and `fragment`.
+    2. Contains `static methods` for `CRUD`, which are used by activity and fragment to perform all
+    database operations at their respective level.
