@@ -11,9 +11,9 @@ User can.
 4. View all Tasks
 
 Tasks have the following priority levels
-1. HIGH
-2. MEDIUM
-3. LOW
+1. `HIGH`
+2. `MEDIUM`
+3. `LOW`
 
 Tasks are color coded according to their priority level automatically by the application.
 User can add task deadlines as well as date they are created (date created is saved automatically).
